@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="add-todo" id="button">
+        <img src="/img/plus-circle.svg" alt="add-icon">
+        <p>add Todo</p>
+    </div>
+    <div class="modal-container" id="modal">
+        <form>
+            <input type="text" id="task-name" placeholder="Task name">
+            <textarea name="description" placeholder="description" id="description"></textarea>
+
+            <div class="buttons">
+                <button type="button" id="cancel">Cancel</button>
+                <button type="button" id="save-btn">Save</button>
+            </div>
+            
+        </form>
+    </div>
+    <div class="container">
+    </div>
+</body>
+</html>
